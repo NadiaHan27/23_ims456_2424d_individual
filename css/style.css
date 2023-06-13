@@ -80,5 +80,46 @@ float: right;
 
 }
 
+.content
+{
+  text-align: justify;
+  font-family: 'Poppins',sans-serif;
+}
+
+table,tr,td,th
+{
+  border: 1px dotted blueviolet;
+  border-collapse: collapse;
+}
+
+td
+{
+  padding: 5px;
+}
+
+tr
+{
+  background-color: rgb(243, 204, 145);
+}
+
+tr:nth-child(odd)
+{
+  background-color: bisque;
+}
+
+th
+{
+  background-color: rgb(190, 222, 241);
+  color:rgb(27, 52, 98)
+}
+
+tr:hover
+{
+  background-color: rgb(219, 106, 183);
+}
+
+
+
+
 
 
